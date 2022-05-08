@@ -1,5 +1,5 @@
 *Lang: pt-br*
-# **Planejamento em Cartas Militares Digital**
+# **Planejamento em Cartas Militares Digitais**
 
 ### Considerações Iniciais:
 - O tutorial tem o objetivo de difundir conhecimentos sobre planejamento tático para operações militares;
