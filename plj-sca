@@ -1,16 +1,104 @@
 *Lang: pt-br*
 # **Sistema de Comunicações de Área (SCA): Representação e planejamento em Cartas Militares Digitais**
 
+Finalidade: auxiliar novos alunos....  
 
+Desenvolvimento de um software com as seguintes características: cadastrar os meios de comunicações disponíveis e limitados (problemas parciais que inviabilizam uso de determinadas funcionalidades) para os escalões do CGE, B Com, Cia Com; mapear as capacidades técnicas dos meis de comunicações de dotação; integrar-se com sistema de topografia (e.g. QGIS, OpenStreetMaps, BDGEx); integrar informações de fontes abertas sobre características técnicas de comunicações (potência de RF dos equipamentos, predição de enlace no ambiente de propagação de RF, altímetria do relevo e etc); e permitir a completa representação visual do planejamento tático de comunicações.  
 
-[<img src="./pics/normograph_sm-1.png" width="800"/>]() 
-
-
-### LibreOffice Draw
-- Unidades de referência para símbolos tópicos: u, 0.75u e 0.2u
-
-
-### Google Earth Pro
+### Sistema de Comunicações de Área
+Trata-se da abstração técnica em prol de considerações táticas para representar de maneira ágil um sistema de comunicações complexo que envolve diversas tecnologias, com foco em segurança da informação, alta taxa de transmissão de dados, resiliência, flexibilidade, modularidade e demais princípios de emprego das comunicações militares. O SCA tem o objetivo de prover o máximo de consciência situacional empregando diversos recursos comunicações para unidades desdobradas no valor Divisão de Exército e superiores (entendimento do autor). 
 
 ---
 
+
+
+Normógrafo para desenho de símbolos militares  
+[<img src="./pics/normograph_sm-1.png" width="700"/>]() 
+
+
+
+### **Planejamento do SCA**
+
+> Enlace de Junção (Enlc Jç): ligação entre NA - CN ou NA - NA.
+> Enlace de Rede (Enlc Rede): ligação entre CN - CN. 
+
+#### 1. Locação dos Nós de Acesso (NA)
+- devem ser locados até 1.5 Km do centro do PC que deve apoiar, desde que dentro da Z Aç do escalão considerado;
+- o centro do PC é a base do "mastro" do símbolo;
+- No caso de ser uma Zona de Reunião (Z Reu), o NA é locado a 1.5 Km da borda ou canto inferior esquerdo do símbolo, se o PC estiver posicionado no centro da Z Reu, prevalece a regra anterior.
+
+
+
+> Prioridade de distribuição dos NA do B Com:  
+> 1. C Com do Cmdo do PCP da DE,  
+> 2. C Com Cmdo do PC Altn da DE, se distinto da Art/DE,  
+> 3. C Com Cmdo da AD,  
+> 4. C Com Cmdo Gpt E,  
+> 5. C Com Cmdo Gpt Log, quando ativado,  
+> 6. C Com dos PC Altn da AD e Gpt E,  
+> 7. C Com Cmdo de U diretamente subordinada, em caso de excepcionalidade,  
+> 7.1 O PC Altn é sempre estabelecido com os mesmos meios que o PCP,  
+> 7.1 Os NA distribuídos conseguem apoiar em comunicações todos os Elm justapostos.
+
+
+#### 2. Determinação da quantidade e locação dos CN
+- A quantidade de 
+
+
+#### 3. Estabelecimento da Malha Nodal
+
+
+
+#### 4. Estabelecer a conectividade dos NA
+
+
+#### 5. Estabelecimento das ligações de apoio aos PC sem NA
+
+
+#### 6. Apropriação de Recursos Locais (Rcs Loc) de Comunicações
+- Ocorre mediante autorização do escalão superior, levando em consideração o aspecto segurança.
+- As centrais telefônicas automáticas civis, podem ser apropriadas com no mínimo a conectividade prevista na tabela a seguir:
+
+Tipo | Descrição | Qtd pares de fibra | Cabo múltiplo de 5 pares de metal
+-------| ---------| ---------|------------
+C Tel Au Civ | Central telefônica comum | 01 | 01 (somente audio)
+C Tel Au IP Civ | Entendido como qualque Point of Presence, ou PoP, local onde o ISP (Internet Service Provider) mantém o Eqp de telecomunicações necessário para permitir o acesso local dos seus clientes à Internet. | 01 | Não se aplica
+
+- Com a apropriação de rede de dados com acesso à Internet é possível emprego de um Virtual Private Network (VPN) para se obter rota para ROD (Rede Operacional de Defesa). Cabe ao gerenciador da ROD estabelecer as prerrogativas da maneira desta VPN.
+- O PC da FTC acessa a ROD, uma vez que é responsabilidade do TO ligar-se ao PC da FTC.
+
+#### 7. Estabelecer o Sistema de Assinante Móvel (SAM)
+- as cabines TAR devem ser alocadas conforme as regras gerais de acessibilidade e dentro da Z Aç do escalão considerado;
+- a partir do centro do símbolo do TAR será mensurada a cobertura radial das células (3G/4G/5G), conforme dados médios de desempenho desses meios.
+- Considerando que os equipamentos possuem um total de 03 Base Stations (BS) com cobertura de 120 graus cada, não necessariamente todas as BS estarão ativadas simultâneamente, então podem ser representadas apenas 1 ou 2 setores.
+
+---
+
+### **Guerra Eletrônica**
+
+---
+
+### **Exemplos de planejamentos do SCA**
+
+- [Exemplo de um Planejamento do Sistema de Comunicações de Área em apoio a uma Operação Ofensiva de Aproveitamento do Êxito e Junção](shorturl.at/ghlIS)
+
+
+#### Tasks Todo:
+- do english version
+- put here tasks and gifs about step by step
+- show how translate vetorized map to google, add to plj-mil tat
+- show SCA systems like a SCA concept (1 bcom. 9 bcomge)
+- explain about Libre OfficeDraw, Inkscape useful features
+
+
+---
+
+### **REFERÊNCIAS:**
+- [Normas Gerais de Ação para o Emprego das Comunicações - CCom/EsAO - 2022](https:shorturl.at/eCGJU)
+- [EB70-MC-10.246 - Manual de Campanha: As Comunicações nas Operações - 2020](https://bdex.eb.mil.br/jspui/bitstream/123456789/7073/1/EB70-MC-10.246_PDF.pdf)
+- [EB70-MC-10.241 - Manual de Campanha: As Comunicações na Força Terrestre - 2018](https://bdex.eb.mil.br/jspui/bitstream/123456789/2651/5/EB70MC10241.pdf)
+
+---
+
+Author: *Cristiano Monteiro*  
+2022 May 14 - version 0.1alfa
