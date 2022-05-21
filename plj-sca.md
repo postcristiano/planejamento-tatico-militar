@@ -18,13 +18,13 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 **CN** | Centro Nodal | Módulo que agrega diversos meios de comunicações. |
 **NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA.|
 **Rpt** | Repetidora | Módulo que agrega diversos meios de comunicações, seu objetivo é regenerar o sinal e extender o alcance do enlace rádio. |
-**SAM** | Sistema de Acesso Móvel | Subsistema do SCA, composto pelo equipamentos TAR e TAM. Concepção celular de cobertura de sinal e ligação ponto à ponto para consolidação do *backhaul*.
-**TAR (ERB)** | (Estação Rádio Base)|
-**TAM** | Terminal de Acesso Móvel |
+**SAM** | Sistema de Acesso Móvel | Subsistema do SCA, composto pelo equipamentos TAR e TAM. Concepção celular de cobertura de sinal e ligação ponto à ponto para consolidação do *backhaul* até o SG.
+**TAR (ERB)** | (Estação Rádio Base)| Módulo tático ditado de uma Estação Rádio Base.
+**TAM** | Terminal de Acesso Móvel | Módulo que agrega meios de comunicações rádio. |
 **EIR** | Equipamento de Integração à Rede | Trata-se de um equipamento rádio que desempenha à função de ligação de apoio para se integrar ao SCA
-**SG** | Sistemas Gerenciadores |
+**SG** | Sistemas Gerenciadores | Módulo que hospeda sistemas software de Comando e Controle e sistemas de gerenciamento técnico dos elementos do SCA. Possui diversos recursos para se manter o mais resiliente possível (backups, fonte de energia redundante, segurança física, SIEM e etc).
 **C Tel** | Central Telefônica |
-**ONT** | Optical Network Terminal|
+**ONT** | Optical Network Terminal| 
 **OLT** | Optical Line Terminal |
 **Splitter** | N/A
 **Cb Ot** | Cabo Óptico |
