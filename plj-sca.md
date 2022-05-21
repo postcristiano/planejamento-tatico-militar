@@ -88,11 +88,11 @@ classDiagram
     class TAR{
     /ERB
 	-Mastro Pneumático 30m
-    -acesso do Usuário()
+    -enlc Backhauk()
     }
     class TAM{
     +Portátil/Veicular/Fixo
-    +run()
+    +acesso do Usuário()
     }
     class SG{
     +hospedagem Sistemas()
