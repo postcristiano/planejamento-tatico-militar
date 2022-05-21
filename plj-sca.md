@@ -37,14 +37,8 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 > **Backhauk do SAM:**   
 > **Cobertura do SAM:**   
 
-
 ```mermaid
 classDiagram
-    SCA <|-- CN
-    SCA <|-- NA
-    SCA <|-- Rpt
-    SCA <|-- SAM
-	SCA <|-- SG
 	CN "3..8" <|-- "1..*" M_Cn_Rad
 	M_Cn_Rad "1..1" <|-- "1..1" ModemMPE
 	CN <|-- EIR	
@@ -65,13 +59,6 @@ classDiagram
 	SG "2..4" <|-- "1..*" PtP_SAM
 
 
-    SCA : +Flexibilidade
-    SCA : +Adaptabilidade
-	SCA : +Modularidade
-	SCA : +Elasticidade	
-	SCA : +Sustentabilidade		
-    SCA: +ligações Elm orgânicos do Escalão Subrd()
-    SCA: +C2()
     class CN{
     -Motorizado
 	-Helitransportável
