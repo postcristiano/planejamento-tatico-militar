@@ -158,7 +158,7 @@ classDiagram
 - No processo de representação manual, se utiliza o normógrafo para representar a simbologia dos elementos do SCA;  
 <img src="./pics/normograph_sm-1.png" width="700"/>
 - As formas 1, 2, 3, 4, 5 e 6, são utilizadas para representação manual, conforme padronizado; 
-- Este guia de planejamento emprega simbologia através de imagens vetorias, você pode criar suas próprias imagens através de um editor de imagens vetoriais como o (Inkscape)[https://inkscape.org/] e armazena-las em um [repositório](https://github.com/postcristiano/simbolos-militares/blob/main/sca.md).
+- Este guia de planejamento emprega simbologia através de imagens vetorias, você pode criar suas próprias imagens através de um editor de imagens vetoriais como o [Inkscape](https://inkscape.org/) e armazena-las em um [repositório](https://github.com/postcristiano/simbolos-militares/blob/main/sca.md).
 
 [<img src="./pics/sca-tip1.png" width="700"/>](https://github.com/postcristiano/simbolos-militares/blob/main/sca.md) 
 
