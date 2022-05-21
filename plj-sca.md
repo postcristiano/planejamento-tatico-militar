@@ -34,10 +34,9 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 **FDT** | Fio Duplo Telefônico |
 
 
-> **Backhauk do SAM:** 
-> **Cobertura do SAM:** 
+> **Backhauk do SAM:**   
+> **Cobertura do SAM:**   
 
----
 
 ```mermaid
 classDiagram
