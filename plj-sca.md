@@ -2,12 +2,12 @@
 # **Sistema de Comunicações de Área (SCA): Representação e planejamento em Cartas Militares Digitais**
 
 ### Considerações Iniciais:
-Finalidade: auxiliar novos alunos....  
+Finalidade: auxiliar novos alunos.   
 
 Desenvolvimento de um software com as seguintes características: cadastrar os meios de comunicações disponíveis e limitados (problemas parciais que inviabilizam uso de determinadas funcionalidades) para os escalões do CGE, B Com, Cia Com; mapear as capacidades técnicas dos meis de comunicações de dotação; integrar-se com sistema de topografia (e.g. QGIS, OpenStreetMaps, BDGEx); integrar informações de fontes abertas sobre características técnicas de comunicações (potência de RF dos equipamentos, predição de enlace no ambiente de propagação de RF, altímetria do relevo e etc); e permitir a completa representação visual do planejamento tático de comunicações.  
 
 ### Sistema de Comunicações de Área
-Trata-se da abstração técnica em prol de considerações táticas para representar de maneira ágil um sistema de comunicações complexo que envolve diversas tecnologias, com foco em segurança da informação, alta taxa de transmissão de dados, resiliência, flexibilidade, modularidade e demais princípios de emprego das comunicações militares. O SCA tem o objetivo de prover o máximo de consciência situacional empregando diversos recursos comunicações para unidades desdobradas no valor Divisão de Exército e superiores (entendimento do autor). 
+Trata-se da abstração técnica em prol de considerações táticas para representar de maneira ágil um sistema de comunicações complexo que envolve diversas tecnologias, com foco em segurança da informação, alta taxa de transmissão de dados, resiliência, flexibilidade, modularidade e demais princípios de emprego das comunicações militares. O SCA tem o objetivo de prover o máximo de consciência situacional empregando diversos recursos comunicações para unidades desdobradas no valor Divisão de Exército e superiores (entendimento do autor).  
 
 ---
 
@@ -37,7 +37,118 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 > **Backhauk do SAM:** 
 > **Cobertura do SAM:** 
 
-colocar um diagrama de classes em mermaid com os itens
+```mermaid
+classDiagram
+    SCA <|-- CN
+    SCA <|-- NA
+    SCA <|-- Rpt
+    SCA <|-- SAM
+	SCA <|-- SG
+	CN "3..8" <|-- "1..*" M_Cn_Rad
+	M_Cn_Rad "1..1" <|-- "1..1" ModemMPE
+	CN <|-- EIR	
+	CN <|-- OLT
+	NA "2" <|-- "1..*" M_Cn_Rad
+	NA <|-- EIR
+	NA <|-- OLT
+	Rpt <|-- ONT
+	Rpt "2" <|-- "1..*" M_Cn_Rad
+	Rpt "2..4" <|-- "1..*" PtP_SAM
+	SAM <|-- TAR
+    SAM <|-- TAM
+	TAR "2..4" <|-- "1..*" PtP_SAM
+	TAR "1..3" <|-- "1..*" BaseStation3G
+	TAR "1..3" <|-- "1..*" BaseStation4G
+	TAR <|-- OLT
+	SG <|-- OLT
+	SG "2..4" <|-- "1..*" PtP_SAM
+
+
+    SCA : +Flexibilidade
+    SCA : +Adaptabilidade
+	SCA : +Modularidade
+	SCA : +Elasticidade	
+	SCA : +Sustentabilidade		
+    SCA: +ligações Elm orgânicos do Escalão Subrd()
+    SCA: +C2()
+    class CN{
+    -Motorizado
+	-Helitransportável
+	-20 Assinantes analógicos
+	-02 Portas LAN de apoio ao sistema
+	-02 Portas LAN de apoio ao usuário
+	-02 Portas LAN de integração com EIR
+    -enlc Rede()
+    +enlc Junção()
+    }
+    class NA{
+    -Motorizado
+	-Helitransportável
+	-20 Assinantes analógicos
+	-02 Portas LAN de apoio ao sistema
+	-04 Portas LAN de apoio ao usuário
+	-03 Portas LAN de integração com EIR
+    +enlc Junção()
+    }
+    class Rpt{
+    +extender Alcance()
+	+regenerar Sinal()
+    }
+    class SAM{
+    +Concepção celular
+    }
+    class TAR{
+    /ERB
+	-Mastro Pneumático 30m
+    -acesso do Usuário()
+    }
+    class TAM{
+    +Portátil/Veicular/Fixo
+    +run()
+    }
+    class SG{
+    +hospedagem Sistemas()
+    }
+	class M_Cn_Rad{
+    +UHF/SHF
+    +enlc Microondas()
+    }
+	class PtP_SAM{
+    +UHF/SHF
+    +enlc Backhaul Wireless()
+    }
+	class BaseStation3G{
+    +UHF
+	+UMTS/WCDMA/HSPDA
+	+Setor de 120º 
+    +cobertura Celular()
+    }
+	class BaseStation4G{
+    +UHF
+	+LTE/ WiMAX
+	+Setor de 120º 
+    +cobertura Celular()
+    }
+    class EIR{
+    +HF/VHF
+    +enlc rádio()
+    }
+	class OLT{
+    +enlc Físico Óptico()
+    }
+	class ONT{
+	+04 SFP
+	+128 assinantes por interface
+	+4/8 uplinks SFP/RJ-45
+	+4/24 downlinks SFP/RJ-45
+	+onboard QoS
+    +enlc Físico Óptico()
+    }
+    class ModemMPE{
+	+Criptografia HW
+    +criptografar Sinal()
+	}
+```
 
 ---
 
