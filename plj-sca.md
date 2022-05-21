@@ -15,9 +15,9 @@ Trata-se da abstração técnica em prol de considerações táticas para repres
 
 SIGLA | SIGNIFICADO | DESCRIÇÃO
 ------ | --------------- | ---------------
-**CN** | Centro Nodal | |
-**NA** | Nó de Acesso | |
-**Rpt** | Repetidora | |
+**CN** | Centro Nodal | Módulo que agrega diversos meios de comunicações. |
+**NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA.|
+**Rpt** | Repetidora | Módulo que agrega diversos meios de comunicações, seu objetivo é regenerar o sinal e extender o alcance do enlace rádio. |
 **SAM** | Sistema de Acesso Móvel | Subsistema do SCA, composto pelo equipamentos TAR e TAM. Concepção celular de cobertura de sinal e ligação ponto à ponto para consolidação do *backhaul*.
 **TAR (ERB)** | (Estação Rádio Base)|
 **TAM** | Terminal de Acesso Móvel |
@@ -26,9 +26,9 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 **C Tel** | Central Telefônica |
 **ONT** | Optical Network Terminal|
 **OLT** | Optical Line Terminal |
-**Splitter** |
-**Cb Ot** |
-**Fb Ot** |
+**Splitter** | N/A
+**Cb Ot** | Cabo Óptico |
+**Fb Ot** | Fibra Óptica |
 **Cb Rede** | Cabo estruturado para rede |
 **C5P** | Cabo Múltiplo de 5 pares | 
 **FDT** | Fio Duplo Telefônico |
