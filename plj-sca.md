@@ -37,6 +37,8 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 > **Backhauk do SAM:** 
 > **Cobertura do SAM:** 
 
+---
+
 ```mermaid
 classDiagram
     SCA <|-- CN
