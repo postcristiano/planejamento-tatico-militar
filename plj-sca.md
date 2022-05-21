@@ -2,9 +2,9 @@
 # **Sistema de Comunicações de Área (SCA): Representação e planejamento em Cartas Militares Digitais**
 
 ### Considerações Iniciais:
-Finalidade: auxiliar novos alunos.   
+- A principal finalidade deste trabalho é facilitar o entendimento do Sistema de Comunicações de Área; e    
 
-Desenvolvimento de um software com as seguintes características: cadastrar os meios de comunicações disponíveis e limitados (problemas parciais que inviabilizam uso de determinadas funcionalidades) para os escalões do CGE, B Com, Cia Com; mapear as capacidades técnicas dos meis de comunicações de dotação; integrar-se com sistema de topografia (e.g. QGIS, OpenStreetMaps, BDGEx); integrar informações de fontes abertas sobre características técnicas de comunicações (potência de RF dos equipamentos, predição de enlace no ambiente de propagação de RF, altímetria do relevo e etc); e permitir a completa representação visual do planejamento tático de comunicações.  
+- Propor uma referência para o desenvolvimento futuro de um software auxiliar de Planejamento do SCA com os seguintes requisitos: cadastrar os meios de comunicações disponíveis e limitados (problemas parciais que inviabilizam uso de determinadas funcionalidades) para os escalões do CGE, B Com, Cia Com; mapear as capacidades técnicas dos meios de comunicações de dotação; integrar-se com sistema de topografia (e.g. QGIS, OpenStreetMaps, BDGEx); integrar informações de fontes abertas sobre características técnicas de comunicações (potência de RF dos equipamentos, predição de enlace no ambiente de propagação de RF, altímetria do relevo e etc); e permitir a completa representação visual do planejamento tático de comunicações.  
 
 ### Sistema de Comunicações de Área
 Trata-se da abstração técnica em prol de considerações táticas para representar de maneira ágil um sistema de comunicações complexo que envolve diversas tecnologias, com foco em segurança da informação, alta taxa de transmissão de dados, resiliência, flexibilidade, modularidade e demais princípios de emprego das comunicações militares. O SCA tem o objetivo de prover o máximo de consciência situacional empregando diversos recursos comunicações para unidades desdobradas no valor Divisão de Exército e superiores (entendimento do autor).  
@@ -228,7 +228,7 @@ PO | 01 | 01 (apenas audio)
 Tipo | Descrição | Qtd pares de fibra | Cabo múltiplo de 5 pares de metal
 -------| ---------| ---------|------------
 C Tel Au Civ | Central telefônica comum | 01 | 01 (somente audio)
-C Tel Au IP Civ | Entendido como qualque Point of Presence, ou PoP, local onde o ISP (Internet Service Provider) mantém o Eqp de telecomunicações necessário para permitir o acesso local dos seus clientes à Internet. | 01 | Não se aplica
+C Tel Au IP Civ | Entendido como qualquer ponto de presença, ou PoP, local onde o ISP (Internet Service Provider) mantém o Eqp de telecomunicações necessário para permitir o acesso local dos seus clientes à Internet. | 01 | Não se aplica
 
 - Com a apropriação de rede de dados com acesso à Internet é possível emprego de um Virtual Private Network (VPN) para se obter rota para ROD (Rede Operacional de Defesa). Cabe ao gerenciador da ROD estabelecer as prerrogativas da maneira desta VPN.
 - O PC da FTC acessa a ROD, uma vez que é responsabilidade do TO ligar-se ao PC da FTC.
