@@ -107,13 +107,13 @@ classDiagram
     }
 	class BaseStation3G{
     +UHF
-	+UMTS/WCDMA/HSPDA
+	+EVDO/UMTS/WCDMA/HSPDA
 	+Setor de 120º 
     +cobertura Celular()
     }
 	class BaseStation4G{
     +UHF
-	+LTE/ WiMAX
+	+LTE/WiMAX
 	+Setor de 120º 
     +cobertura Celular()
     }
