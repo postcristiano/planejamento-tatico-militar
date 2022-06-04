@@ -19,22 +19,20 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO | ILUSTRAÇÃO
 **NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA.|
 **Rpt** | Repetidora | Módulo que agrega diversos meios de comunicações, seu objetivo é regenerar o sinal e extender o alcance do enlace rádio. |
 **SAM** | Sistema de Acesso Móvel | Subsistema do SCA, composto pelo equipamentos TAR e TAM. Concepção celular de cobertura de sinal e ligação ponto à ponto para consolidação do *backhaul* até o SG.
-**TAR (ERB)** | (Estação Rádio Base)| Módulo tático ditado de uma Estação Rádio Base.
-**TAM** | Terminal de Acesso Móvel | Módulo que agrega meios de comunicações rádio. |
+**TAR (ERB)** | (Estação Rádio Base)| Módulo tático dotado de uma Estação Rádio Base.
+**TAM** | Terminal de Acesso Móvel | Dispositivo utilizado pelo usuário final. É a interface que possibilita o consumo de informações de sistemas de comando e controle e comunicação em redes TCP/IP. Ex: smartphones, tablets, laptops robustecidos. |  <img src="./pics/entities/rugged-smartphone.png" width="100"/>
 **EIR** | Equipamento de Integração à Rede | Trata-se de um equipamento rádio que desempenha à função de ligação de apoio para se integrar ao SCA
 **SG** | Sistemas Gerenciadores | Módulo que hospeda sistemas software de Comando e Controle e sistemas de gerenciamento técnico dos elementos do SCA. Possui diversos recursos para se manter o mais resiliente possível (backups, fonte de energia redundante, segurança física, SIEM e etc).
-**C Tel** | Central Telefônica |
-**ONT** | Optical Network Terminal| 
-**OLT** | Optical Line Terminal |
-**Splitter** | N/A
+**C Tel** | Central Telefônica | | <img src="./pics/entities/c-tel.png" width="100"/>
+**ONT** | Optical Network Terminal | | <img src="./pics/entities/gpon.png" width="100"/>
+**OLT** | Optical Line Terminal | | <img src="./pics/entities/optical-conversor.png" width="100"/>
+**Splitter** | N/A | Dispositivo para realizar divisão d| <img src="./pics/entities/optical-splitter.png" width="100"/>
 **Cb Ot** | Cabo Óptico |
 **Fb Ot** | Fibra Óptica | |
-**Cb Rede** | Cabo estruturado para rede | | <img src="./pics/entities/cat6a-cable.png" width="100"/>
+**Cb Rede** | Cabo estruturado para rede | Ex: Cabo Cat 5E, cabo Cat 6A, etc.  | <img src="./pics/entities/cat6a-cable.png" width="100"/>
 **C5P** | Cabo Múltiplo de 5 pares | 
 **FDT** | Fio Duplo Telefônico | Fio metálico simples de emprego para telefonia analógica.
 
-
-<img src="./pics/entities/cat6a-cable.png" width="100"/>
 
 > **Backhauk do SAM:**   
 > **Cobertura do SAM:**   
