@@ -234,7 +234,9 @@ C Tel Au IP Civ | Entendido como qualquer ponto de presença, ou PoP, local onde
 
 ### **Exemplos de planejamentos do SCA**
 
-- [Exemplo de um Planejamento do Sistema de Comunicações de Área em apoio a uma Operação Ofensiva de Aproveitamento do Êxito e Junção](shorturl.at/ghlIS)
+- [Planejamento do Sistema de Comunicações de Área em apoio a uma Operação Ofensiva de Aproveitamento do Êxito e Junção](https://shorturl.at/ghlIS)
+- [Planejamento do Sistema de Comunicações de Área em apoio a uma Operação Ofensiva com atualização da capacidade de enlaces dos Centros Nodais](https://shorturl.at/gmoIS)
+
 
 
 #### Tasks Todo:
