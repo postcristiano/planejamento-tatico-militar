@@ -26,13 +26,12 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO | ILUSTRAÇÃO
 **C Tel** | Central Telefônica | | <img src="./pics/entities/c-tel.png" width="100"/>
 **ONT** | Optical Network Terminal | | <img src="./pics/entities/gpon.png" width="100"/>
 **OLT** | Optical Line Terminal | | <img src="./pics/entities/optical-conversor.png" width="100"/>
-**Splitter** | N/A | Dispositivo para realizar divisão d| <img src="./pics/entities/optical-splitter.png" width="100"/>
-**Cb Ot** | Cabo Óptico |
-**Fb Ot** | Fibra Óptica | |
+**Splitter** | N/A | Dispositivo para realizar a derivação física de um canal de comunicações. Ex: Splitter óptico. | <img src="./pics/entities/optical-splitter.png" width="100"/>
+**Cb Ot** | Cabo Óptico | | <img src="./pics/entities/optical-cable.png" width="100"/>
+**Fb Ot** | Fibra Óptica | | <img src="./pics/entities/sc-patchcord.png" width="100"/>
 **Cb Rede** | Cabo estruturado para rede | Ex: Cabo Cat 5E, cabo Cat 6A, etc.  | <img src="./pics/entities/cat6a-cable.png" width="100"/>
-**C5P** | Cabo Múltiplo de 5 pares | 
+**C5P** | Cabo Múltiplo de 5 pares. | 
 **FDT** | Fio Duplo Telefônico | Fio metálico simples de emprego para telefonia analógica.
-
 
 > **Backhauk do SAM:**   
 > **Cobertura do SAM:**   
@@ -241,6 +240,7 @@ C Tel Au IP Civ | Entendido como qualquer ponto de presença, ou PoP, local onde
 
 #### Tasks Todo:
 - do english version
+- gifs
 - put here tasks and gifs about step by step
 - show how translate vetorized map to google, add to plj-mil tat
 - show SCA systems like a SCA concept (1 bcom. 9 bcomge)
