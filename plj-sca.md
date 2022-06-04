@@ -11,10 +11,10 @@ Trata-se da abstração técnica em prol de considerações táticas para repres
 
 ---
 
-### **ELEMENTOS DO SCA**
+### **ELEMENTOS/ENTIDADES DO SCA**
 
-SIGLA | SIGNIFICADO | DESCRIÇÃO
------- | --------------- | ---------------
+SIGLA | SIGNIFICADO | DESCRIÇÃO | ILUSTRAÇÃO
+------ | --------------- | --------------- | ---------------
 **CN** | Centro Nodal | Módulo que agrega diversos meios de comunicações. |
 **NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA.|
 **Rpt** | Repetidora | Módulo que agrega diversos meios de comunicações, seu objetivo é regenerar o sinal e extender o alcance do enlace rádio. |
@@ -28,11 +28,13 @@ SIGLA | SIGNIFICADO | DESCRIÇÃO
 **OLT** | Optical Line Terminal |
 **Splitter** | N/A
 **Cb Ot** | Cabo Óptico |
-**Fb Ot** | Fibra Óptica |
-**Cb Rede** | Cabo estruturado para rede |
+**Fb Ot** | Fibra Óptica | |
+**Cb Rede** | Cabo estruturado para rede | | <img src="./pics/entities/cat6a-cable.png" width="100"/>
 **C5P** | Cabo Múltiplo de 5 pares | 
-**FDT** | Fio Duplo Telefônico |
+**FDT** | Fio Duplo Telefônico | Fio metálico simples de emprego para telefonia analógica.
 
+
+<img src="./pics/entities/cat6a-cable.png" width="100"/>
 
 > **Backhauk do SAM:**   
 > **Cobertura do SAM:**   
