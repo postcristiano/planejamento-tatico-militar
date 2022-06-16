@@ -116,12 +116,12 @@ North Arrow |  Orientar a carta
 
 > **SUGESTÃO** 
 > - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie um diretório, por exemplo `military` e coloque o seu [inventário de simbolos militares](https://github.com/postcristiano/simbolos-militares);*
-> - *Em sistemas operacionais Windows, o diretório de armazenamento de símbolos e imagens vetorizadas nativas do QGIS é algo semelhante a `C:/PROGRA~1/QGIS31~1.16/apps/qgis-ltr/./svg/`, adicione nele seu diretório contendo um [inventário de simbolos militares](https://github.com/postcristiano/simbolos-militares);*
+> - *Em sistemas operacionais Windows, o diretório de armazenamento de símbolos e imagens vetorizadas nativas do QGIS é algo semelhante a `C:/PROGRA~1/QGIS31~1.16/apps/qgis-ltr/./svg/`, adicione nele seu diretório contendo um [inventário de simbolos militares](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md);*
 > - *Você mesmo pode desenvolver o seu inventários de simbolos reutilizáveis com o editor de imagens vetorizadas Inkscape;*
 > - *A pasta é a mesma em todos sistemas operacionais, mudando apenas a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
 > - *Isso não é uma tarefa impositiva, você também pode simplesmente arrastar o simbolo vetorizado direto para a carta, posiciona-lo e ajustar o seu tamanho de acordo com a necessidade.*
 
-[<img src="./pics/pcmd-tip1.png" width="1024"/>](https://github.com/postcristiano/simbolos-militares) 
+[<img src="./pics/pcmd-tip1.png" width="1024"/>](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md) 
 
 ---
 
