@@ -189,7 +189,7 @@ North Arrow |  Orientar a carta
 ---
 
 ### **OUTROS SOFTWARES DE INTERESSE**
-- [OpenStreetMap](https://www.openstreetmap.org/): É um projeto voltado diretamente para a criação e fornecimento de dados geográficos gratuitos, como mapas de ruas, para quem quiser. É um mapa editável gratuito de todo o mundo. É feito por pessoas como você. É possível implementar sua própria versão local sem compartilhar dados com terceiros.  
+- [OpenStreetMap](https://www.openstreetmap.org/): É um projeto voltado diretamente para a criação e fornecimento de dados geográficos gratuitos, como mapas de ruas, para quem quiser. Semelhante ao *Google Maps*, porém é Open-source e colaborativo. É possível implementar sua própria versão local sem compartilhar dados com terceiros.  
 - [Open Orienteering](https://www.openorienteering.org/apps/mapper/): É um programa de mapeamento de orientação e fornece uma alternativa gratuita à soluções proprietária existentes. O programa é totalmente gratuito, qualquer programador pode melhorá-lo. O programa funciona em Android, Windows, macOS e Linux.  
 - [gvSIG](http://www.gvsig.com/en) É um projeto GIS de código aberto gratuito, caracterizado por uma interface amigável e capaz de acessar rapidamente os formatos raster e vetoriais mais usuais. Open-source: o código-fonte original foi lançado sob licença GNU-GPL. O programa funciona em Android, Windows, macOS e Linux. Sua linguagem de programação é Java. Sujeito a normas: segue as diretrizes estabelecidas pelo Open Geospatial Consortium (OGC) e pela União Européia.  
 
