@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="162"
+   height="152"
+   viewBox="19 4 162 152"
+   id="svg16"
+   sodipodi:docname="10031000171205010000.svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.061212"
+     inkscape:cx="97.630954"
+     inkscape:cy="68.944936"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <path
+     d="M25,50 l150,0 0,100 -150,0 z"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     fill-opacity="0"
+     id="path2" />
+  <path
+     d="M125,80 C150,80 150,120 125,120 L75,120 C50,120 50,80 75,80 Z"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="path4" />
+  <path
+     d="M25,150L175,50"
+     stroke-width="6"
+     stroke="Blue"
+     fill="Blue"
+     id="path6" />
+  <g
+     transform="translate(0,0)"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="g14">
+    <path
+       d="M100,40L100,15"
+       id="path8" />
+    <path
+       d="M120,40L120,15"
+       id="path10" />
+    <path
+       d="M80,40L80,15"
+       id="path12" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:25.768px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.999995"
+     x="81.271645"
+     y="145.0479"
+     id="text5752"><tspan
+       sodipodi:role="line"
+       id="tspan5750"
+       x="81.271645"
+       y="145.0479"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.999995">CC</tspan></text>
+</svg>

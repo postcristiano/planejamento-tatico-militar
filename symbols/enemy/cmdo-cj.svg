@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="212"
+   height="196"
+   viewBox="-6 -18 212 196"
+   id="svg8"
+   sodipodi:docname="10061000250000000000.svg"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.4540816"
+     inkscape:cx="106.08247"
+     inkscape:cy="98"
+     inkscape:window-width="2500"
+     inkscape:window-height="1376"
+     inkscape:window-x="1980"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     d="M 100,28 L172,100 100,172 28,100 100,28 Z"
+     stroke-width="6"
+     stroke="Red"
+     fill="none"
+     fill-opacity="0"
+     id="path2" />
+  <g
+     transform="translate(0,0)"
+     stroke-width="6"
+     stroke="Red"
+     fill="none"
+     id="g6">
+    <path
+       d="M0,18 l25,-25 m0,25 l-25,-25   M35,18 l25,-25 m0,25 l-25,-25   M70,18 l25,-25 m0,25 l-25,-25   M105,18 l25,-25 m0,25 l-25,-25    M140,18 l25,-25 m0,25 l-25,-25     M175,18 l25,-25 m0,25 l-25,-25"
+       id="path4" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff0000;fill-opacity:1"
+     x="57.503513"
+     y="111.85587"
+     id="text3896"><tspan
+       sodipodi:role="line"
+       id="tspan3894"
+       x="57.503513"
+       y="111.85587">C Cj</tspan></text>
+</svg>

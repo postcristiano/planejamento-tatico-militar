@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="156"
+   height="196"
+   viewBox="22 -18 156 196"
+   id="svg10"
+   sodipodi:docname="10061000151213000000.svg"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.4540816"
+     inkscape:cx="78.018328"
+     inkscape:cy="98"
+     inkscape:window-width="2500"
+     inkscape:window-height="1376"
+     inkscape:window-x="1980"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <path
+     d="M 100,28 L172,100 100,172 28,100 100,28 Z"
+     stroke-width="6"
+     stroke="Red"
+     fill="none"
+     fill-opacity="0"
+     id="path2" />
+  <path
+     d="M60,130L140,70"
+     stroke-width="6"
+     stroke="Red"
+     fill="Red"
+     id="path4" />
+  <g
+     transform="translate(0,0)"
+     stroke-width="6"
+     stroke="Red"
+     fill="none"
+     id="g8">
+    <path
+       d="M100,18L100,-7"
+       id="path6" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:21.5289px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff0000;fill-opacity:1;stroke-width:1"
+     x="77.896706"
+     y="142.77449"
+     id="text4030"><tspan
+       sodipodi:role="line"
+       id="tspan4028"
+       x="77.896706"
+       y="142.77449"
+       style="stroke-width:1">Rec</tspan></text>
+</svg>

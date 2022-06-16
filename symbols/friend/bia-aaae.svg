@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="162"
+   height="152"
+   viewBox="19 4 162 152"
+   id="svg12"
+   sodipodi:docname="bia-aaae.svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16">
+    <linearGradient
+       id="linearGradient1001"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop999" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient962"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop960" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient962"
+       id="linearGradient1003"
+       x1="24.596329"
+       y1="99.724648"
+       x2="175.39639"
+       y2="99.724648"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.061212"
+     inkscape:cx="44.937324"
+     inkscape:cy="66.359501"
+     inkscape:window-width="2500"
+     inkscape:window-height="1376"
+     inkscape:window-x="1980"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     d="M25,50 l150,0 0,100 -150,0 z"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     fill-opacity="0"
+     id="path2" />
+  <path
+     d="M25,150 C25,110 175,110 175,150"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="path4" />
+  <g
+     transform="translate(0,0)"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="g10">
+    <path
+       d="M100,40L100,15"
+       id="path8" />
+  </g>
+  <path
+     style="fill:none;fill-opacity:1;stroke:url(#linearGradient1003);stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 25.000003,149.98012 98.10515,53.510335 175,149.98012"
+     id="path892" />
+</svg>

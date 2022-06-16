@@ -19,17 +19,19 @@
 [<img src="./pics/pcmd1.png" width="400"/>]() 
 ##### **Inkscape - Instalação:**
 - Windows:
-    - Realize o [download](https://inkscape.org/release/1.1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 
-- MacOS:
-    - Realize o [download](https://inkscape.org/gallery/item/31681/Inkscape-1.1.2.dmg) e arraste o instalador para a pasta de aplicativos.
+    - Realize o [download](https://inkscape.org/release/1.2/windows/64-bit/) do binário e instale seguindo as instruções da interface gráfica. 
+- MacOS (arquitetura Intel):
+    - Realize o [download](https://inkscape.org/gallery/item/33440/Inkscape-1.2.0_x86_64.dmg) e arraste o instalador para a pasta de aplicativos.
+- MacOS (arquitetura Arm, M1 ou M2):
+    - Realize o [download](https://inkscape.org/gallery/item/33441/Inkscape-1.2.0_arm64.dmg) e arraste o instalador para a pasta de aplicativos.
 - GNU/Linux (Debian/ Ubuntu):
-    - Encontra-se nos repositórios e também na forma de pacote [Snap](https://snapcraft.io/inkscape) e [Appimage](https://inkscape.org/release/all/gnulinux/appimage/).
+    - Encontra-se nos repositórios e também na forma de pacotes [Snap](https://snapcraft.io/inkscape) e [AppImage](https://inkscape.org/release/all/gnulinux/appimage/).
 ```bash
 sudo apt update && sudo apt install inkscape -y
 ```
 ##### **QGIS - Instalação:**
 - Windows:
-    - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.4-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
+    - Realize o [download](https://qgis.org/downloads/QGIS-OSGeo4W-3.22.7-1.msi) do binário e instale seguindo as instruções da interface gráfica. 
 - MacOS:
     - Realize o [download](https://qgis.org/downloads/macos/qgis-macos-ltr.dmg) e arraste o instalador para a pasta de aplicativos.
 - GNU/Linux (Debian/ Ubuntu):
@@ -49,7 +51,8 @@ sudo add-apt-repository "deb https://qgis.org/ubuntu $(lsb_release -c -s) main"
 sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 ```
 > **Observações:** 
-> - *Sempre dê preferência para a versão estável.*
+> - *Sempre dê preferência para a versão estável do software.*
+> - *Para usar a versão mais atualizada estável do Inkscape em distribuições Linux, utilize pacotes Snap ou AppImage.*
 > - *O QGIS encontra-se disponível para os Macbooks M1, arquitetura arm proprietária da Apple, apenas através da camada de compatibilidade e virtualização [Rosetta 2](https://support.apple.com/pt-br/HT211861). Sendo necessário instalar a mesma se for o caso.*
 > - *No ubuntu 20.04 e posteriores, uma versão estável do QGIS encontra-se no repositório. Não é trata-se da ultima versão do software, porém é funcional e não possui bugs. Para obte-la, basta realizar a instalação a partir do gerenciador de pacotes nativo.*
 
@@ -186,8 +189,8 @@ North Arrow |  Orientar a carta
 ---
 
 ### **REFERÊNCIAS**
-- [Documentação QGIS](https://docs.qgis.org/3.16/pt_BR/docs/user_manual/)
 - [Documentação Inkscape](https://inkscape.org/learn/tutorials/)
+- [Documentação QGIS](https://docs.qgis.org/3.16/pt_BR/docs/user_manual/)
 - [EB20-MF-10.102 - Manual de Fundamentos Doutrina Militar Terrestre](https://bdex.eb.mil.br/jspui/bitstream/123456789/4760/1/EB20-MF-10.102.pdf)
 - [MD33-C-01 - Catálogo de Símbolos e Convenções Cartográficas das Forças](https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/md_33_c_01_catalogo_de_simbolos_e_convencoes_fa_1_d_2021.pdf)
 - [Repositório de simbolos militares](https://github.com/postcristiano/simbolos-militares)
@@ -195,4 +198,4 @@ North Arrow |  Orientar a carta
 ---
 
 Author: *Cristiano Monteiro*  
-2022 March 6 - version 0.9
+2022 March 6 - version 1.0

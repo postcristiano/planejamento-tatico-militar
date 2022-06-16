@@ -15,8 +15,8 @@ Trata-se da abstração técnica em prol de considerações táticas para repres
 
 SIGLA | SIGNIFICADO | DESCRIÇÃO | ILUSTRAÇÃO
 ------ | --------------- | --------------- | ---------------
-**CN** | Centro Nodal | Módulo que agrega diversos meios de comunicações. |
-**NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA.|
+**CN** | Centro Nodal | Módulo que agrega diversos meios de comunicações. Equipamentos que usualmente fazem parte de sua composição: rádio para transmissão dados com grande capacidade de banda, roteador e gerador. |
+**NA** | Nó de Acesso | Módulo que agrega diversos meios de comunicações com a principal função de integrar uma Grande Unidade ao SCA. Equipamentos que usualmente fazem parte de sua composição: rádio para transmissão dados com grande capacidade de banda, switch e gerador.|
 **Rpt** | Repetidora | Módulo que agrega diversos meios de comunicações, seu objetivo é regenerar o sinal e extender o alcance do enlace rádio. |
 **SAM** | Sistema de Acesso Móvel | Subsistema do SCA, composto pelo equipamentos TAR e TAM. Concepção celular de cobertura de sinal e ligação ponto à ponto para consolidação do *backhaul* até o SG.
 **TAR (ERB)** | (Estação Rádio Base)| Módulo tático dotado de uma Estação Rádio Base.

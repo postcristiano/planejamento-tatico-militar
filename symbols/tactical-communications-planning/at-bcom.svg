@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="162"
+   height="252"
+   viewBox="19 4 162 252"
+   id="svg14"
+   sodipodi:docname="10031002161110000000.svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.4642857"
+     inkscape:cx="80.969072"
+     inkscape:cy="126"
+     inkscape:window-width="2500"
+     inkscape:window-height="1376"
+     inkscape:window-x="1980"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <path
+     d="M25,50 l150,0 0,100 -150,0 z"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     fill-opacity="0"
+     id="path2" />
+  <path
+     d="M25,50 100,110 100,90 175,150"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="path4" />
+  <path
+     d="M25,150 L25,250"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="path6" />
+  <g
+     transform="translate(0,0)"
+     stroke-width="6"
+     stroke="Blue"
+     fill="none"
+     id="g12">
+    <path
+       d="M90,40L90,15"
+       id="path8" />
+    <path
+       d="M110,40L110,15"
+       id="path10" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1"
+     x="74.542633"
+     y="187.46692"
+     id="text4958"><tspan
+       sodipodi:role="line"
+       id="tspan4956"
+       x="74.542633"
+       y="187.46692"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">AT</tspan></text>
+</svg>

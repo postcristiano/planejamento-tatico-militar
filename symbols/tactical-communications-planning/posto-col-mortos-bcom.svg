@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="162"
+   height="152"
+   viewBox="19 4 162 152"
+   id="svg12"
+   sodipodi:docname="posto-socorro-bcom (copy).svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.7434211"
+     inkscape:cx="86.09851"
+     inkscape:cy="75.999999"
+     inkscape:window-width="2500"
+     inkscape:window-height="1376"
+     inkscape:window-x="1980"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10-3" />
+  <g
+     transform="matrix(0.87625426,0,0,0.87583738,10.832272,11.19939)"
+     stroke-width="6.84896"
+     stroke="#0000ff"
+     fill="none"
+     id="g10">
+    <path
+       d="M 90,40 V 15"
+       id="path6"
+       style="stroke-width:6.84896" />
+    <path
+       d="M 110,40 V 15"
+       id="path8"
+       style="stroke-width:6.84896" />
+  </g>
+  <ellipse
+     cx="98.457687"
+     cy="88.420174"
+     stroke-width="6"
+     stroke="#0000ff"
+     fill="none"
+     fill-opacity="1"
+     id="circle2"
+     rx="44.736233"
+     ry="44.714947" />
+  <g
+     stroke-width="6"
+     stroke="#0000ff"
+     fill="none"
+     id="g10-3"
+     transform="translate(-115.64834,5.7508591)">
+    <path
+       d="M 214.10603,109.57056 V 53.521143"
+       id="path8-7"
+       style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       d="m 199.70946,69.452067 28.79314,0.03861"
+       id="path8-7-5"
+       style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+       x="279.14056"
+       y="138.75894"
+       id="text10154"><tspan
+         sodipodi:role="line"
+         id="tspan10152"
+         x="279.14056"
+         y="138.75894" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7716px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="255.77147"
+       y="111.77868"
+       id="text24244"
+       transform="scale(1.0131024,0.98706706)"><tspan
+         sodipodi:role="line"
+         id="tspan24242"
+         x="255.77147"
+         y="111.77868"
+         style="stroke-width:1">Com</tspan></text>
+  </g>
+</svg>
