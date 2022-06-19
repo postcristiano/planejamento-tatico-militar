@@ -200,7 +200,7 @@ North Arrow |  Orientar a carta
 - [Documentação QGIS](https://docs.qgis.org/3.16/pt_BR/docs/user_manual/)
 - [EB20-MF-10.102 - Manual de Fundamentos Doutrina Militar Terrestre](https://bdex.eb.mil.br/jspui/bitstream/123456789/4760/1/EB20-MF-10.102.pdf)
 - [MD33-C-01 - Catálogo de Símbolos e Convenções Cartográficas das Forças](https://www.gov.br/defesa/pt-br/arquivos/File/legislacao/emcfa/publicacoes/md_33_c_01_catalogo_de_simbolos_e_convencoes_fa_1_d_2021.pdf)
-- [Repositório de simbolos militares](https://github.com/postcristiano/simbolos-militares)
+- [Repositório de simbolos militares](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md)
 
 ---
 
