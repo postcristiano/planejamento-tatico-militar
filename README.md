@@ -188,6 +188,19 @@ North Arrow |  Orientar a carta
 
 ---
 
+#### Análise da Altimetria (Adicional)
+- Nem sempre as cartas topográficas estarão atualizadas. 
+- Na necessidade de dados mais precisos é possivel validar a altimetria das curvas de nível utilizando dados públicos de satélites fornecidos pelo Google.
+- Você precisará do [Google Earth Pro](https://www.google.com/earth/versions/#earth-pro) instalado.
+- Arraste a imagem `*.tiff` obtida do QGIS para o Google Earth Pro.
+- Desenhe uma `path` (linha ou polígono) na área da sua carta topográfica.
+- Na sua `path` na barra lateral, selecionar `Show Elevation Profile`.
+- Será apresentado abaixo da área de visualização um corte de altimetria referente a sua `path`.
+
+[<img src="./pics/pcmd99.png" width="1024"/>]() 
+
+---
+
 ### **OUTROS SOFTWARES DE INTERESSE**
 - [OpenStreetMap](https://www.openstreetmap.org/): É um projeto voltado diretamente para a criação e fornecimento de dados geográficos gratuitos, como mapas de ruas, para quem quiser. Semelhante ao *Google Maps*, porém é Open-source e colaborativo. É possível implementar sua própria versão local sem compartilhar dados com terceiros.  
 - [Open Orienteering](https://www.openorienteering.org/apps/mapper/): É um programa de mapeamento de orientação e fornece uma alternativa gratuita à soluções proprietária existentes. O programa é totalmente gratuito, qualquer programador pode melhorá-lo. O programa funciona em Android, Windows, macOS e Linux.  
