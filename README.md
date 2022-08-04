@@ -67,7 +67,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 --------- | -----------
 **URL:** | `http://bdgex.eb.mil.br/mapcache`
 
-[<img src="./pics/pcmd2b.gif" width="1024"/>]() 
+[<img src="./pics/pcmd2b.gif" width="800"/>]() 
 
 - Em caso de dúvida assista este [tutorial](https://youtu.be/4206mbsd6Wc).  
 
@@ -79,7 +79,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 - Caso necessite uma imagem de sua carta para editar e/ou inserir em uma apresentação de slides, vá em `Project`, `Import/Export`, `Export Map to Image`, atente para quantidade de DPI, a qualidade da carta e o tamanho do arquivo a ser criado estão diretamente relacionados a ela;
 - Posteriormente, você também pode carregar a imagem que salvou no QGIS, para trabalhar apenas com ela. Isso pode ser especialmente útil em caso de não possuir uma conexão com a Internet e/ou cache do seu QGIS estiver vazio, como ocorre em novas instalações do software.
 
-[<img src="./pics/pcmd3.gif" width="1024"/>]() 
+[<img src="./pics/pcmd3.gif" width="800"/>]() 
 
 > **Observação:** *É possível utilizar suas credenciais do [Banco de Dados Geográficos do Exército](https://bdgex.eb.mil.br/bdgexapp) para obter as cartas, porém isso não é obrigatório.*
 
@@ -92,7 +92,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 - A quantidade de DPI fornece maior resolução e possibilidade de zoom com maior aproximação, porém exige mais recursos computacionais;
 - Você pode adiocionar  elementos visuais complementares, como a seta de direção norte, e a escala da carta.
 
-[<img src="./pics/pcmd4.gif" width="1024"/>]() 
+[<img src="./pics/pcmd4.gif" width="800"/>]() 
 
 ---
 
@@ -114,7 +114,7 @@ Node Item - polilyne | Simbologias do SCA, Corredores de mobilidade, Vias de ace
 Node Item - poligon | Áreas impedidas e restritas, áreas especiais, etc
 North Arrow |  Orientar a carta
 
-[<img src="./pics/pcmd5.gif" width="1024"/>]() 
+[<img src="./pics/pcmd5.gif" width="800"/>]() 
 
 > **SUGESTÃO** 
 > - *Para ter os simbolos militares integrados ao seu QGIS, entre no diretório `../qgis/svg` da instalação do QGIS no seu computador, crie um diretório, por exemplo `military` e coloque o seu [inventário de simbolos militares](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md);*
@@ -123,7 +123,7 @@ North Arrow |  Orientar a carta
 > - *A pasta é a mesma em todos sistemas operacionais, mudando apenas a hierarquia superior do diretório de acordo com o local de instalação e a organização de diretórios do seu sistema operacional;*
 > - *Isso não é uma tarefa impositiva, você também pode simplesmente arrastar o simbolo vetorizado direto para a carta, posiciona-lo e ajustar o seu tamanho de acordo com a necessidade.*
 
-[<img src="./pics/pcmd-tip1.png" width="1024"/>](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md) 
+[<img src="./pics/pcmd-tip1.png" width="800"/>](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md) 
 
 ---
 
@@ -132,7 +132,7 @@ North Arrow |  Orientar a carta
 - Vá dentro de Layout que você mountou sua manobra, clique em `Layout` e em `Export as a Image` ou `Export as a SVG`  ou  `Export as a PDF`;
 - A qualidade da resolução é determinada pela quantidade de DPI que é diretamente proporcional ao tamanho do arquivo exportado.
 
-[<img src="./pics/pcmd6.gif" width="1024"/>]() 
+[<img src="./pics/pcmd6.gif" width="800"/>]() 
 
 ---
 
@@ -141,7 +141,7 @@ North Arrow |  Orientar a carta
 - Igual ao passo anterior, vá dentro de Layout que você mountou sua manobra, clique em `Layout` e em `Export as a Image` ou `Export as a SVG`  ou  `Export as a PDF`;
 - Não se esqueça de marcar pelo menos duas cruzetas de amarraçao de coordenadas, senão o seu calco será inutil.
 
-[<img src="./pics/pcmd7.gif" width="1024"/>]() 
+[<img src="./pics/pcmd7.gif" width="800"/>]() 
 
 ---
 
@@ -149,7 +149,7 @@ North Arrow |  Orientar a carta
 - Salvar o projeto do QGIS, é muito simples, você vai gerar um arquivo de extensão `*.qgz`;
 - O arquivo gerado vai conter as configurações do servidor de mapas, cache do mapa e demais informações vetoriais de cada estilo que você desenvolveu.
 
-[<img src="./pics/pcmd8.gif" width="1024"/>]() 
+[<img src="./pics/pcmd8.gif" width="800"/>]() 
 
 ---
 
@@ -160,7 +160,7 @@ North Arrow |  Orientar a carta
 - Por fim, selecione as camadas de interesse para exportar em um novo arquivo de imagem; 
 - Você poderar criar uma nova imagem da carta apenas com as informações táde interesse.
 
-[<img src="./pics/pcmd9.gif" width="1024"/>]() 
+[<img src="./pics/pcmd9.gif" width="800"/>]() 
 
 ---
 
@@ -174,7 +174,7 @@ North Arrow |  Orientar a carta
 - Remova a transparência e exporte o calco colado.
 - A partir de agora, se tiver interesse, com a imagem vetorizada você pode preparar ela para adicionar como uma nova camada do QGIS, sobre a carta do Teatro de Operações.
 
-[<img src="./pics/pcmd10.gif" width="1024"/>]() 
+[<img src="./pics/pcmd10.gif" width="800"/>]() 
 
 ---
 
@@ -186,7 +186,7 @@ North Arrow |  Orientar a carta
 - O calco será uma camada, e com ela você poderá dar continuidade no planejamento tático adicionando outros elementos;
 - Vale ressaltar que você deverá realizar a [conversão de coordenadas UTM para geográficas](http://www.carto.eng.uerj.br/cgi/index.cgi?x=utm2geo.htm), para amarrar o calco corretamente em sua carta.
 
-[<img src="./pics/pcmd11.gif" width="1024"/>]() 
+[<img src="./pics/pcmd11.gif" width="800"/>]() 
 
 ---
 
@@ -199,7 +199,7 @@ North Arrow |  Orientar a carta
 - Na sua `path` na barra lateral, selecionar `Show Elevation Profile`.
 - Será apresentado abaixo da área de visualização um corte de altimetria referente a sua `path`.
 
-[<img src="./pics/pcmd99.png" width="1024"/>]() 
+[<img src="./pics/pcmd99.png" width="800"/>]() 
 
 ---
 
