@@ -98,7 +98,7 @@ sudo apt update && sudo apt install qgis qgis-plugin-grass -y
 
 #### PASSO 5: Desenhar um planejamento tático militar
 - Vamos adotar a tabela a seguir como referência para desenhar as representações da operação tática militar;
-- [Simbolos e convenções militares](https://github.com/postcristiano/simbolos-militares) deverão ser imagens vetorizados (`*.png` ou `*.svg`), você pode adicionar à carta arrastando de um diretório do seu computador;
+- [Simbolos e convenções militares](https://github.com/postcristiano/planejamento-tatico-militar/blob/main/simbolos-militares.md) deverão ser imagens vetorizados (`*.png` ou `*.svg`), você pode adicionar à carta arrastando de um diretório do seu computador;
 - Na tabela abaixo está uma sugestão de emprego dos recursos do QGIS com equivalência para os simbolos e convenções militares;
 - Para inserir um simbolo específico a partir do QGIS, vá em `Add item`, `Add Picture`, no menu que se abrirá a direita, acesse `Item Properties` e selecione sua figura.
 
